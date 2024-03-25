@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#background {
+    background-image: url('../static/bgTic.gif');
+    background-size: cover;
+    width: 100vw;
+    height: 100svh;
+}
+
+#game {
+    width: 100vw;
+    height: 100svh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+#inputBox1,
+#inputBox2 {
+    position: relative;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    background: white;
+}
+
+
